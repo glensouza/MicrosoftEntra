@@ -6,51 +6,34 @@ Microsoft has announced that it will be renaming Azure Active Directory (Azure A
 
 The renaming will take effect on October 1, 2023, and all existing deployments, configurations, and integrations will continue to function as they do today without any action from users.
 
-The new names of standalone offers will be **Microsoft Entra ID Free**, **Microsoft Entra ID P1**, and **Microsoft Entra ID P2**.
+[Slides](./Microsoft%20Entra%202023-09-18.pdf)
 
 ## Agenda
 
 - [What is Microsoft Entra](#what-is-microsoft-entra)
 - [Azure AD to Microsoft Entra ID](#azure-ad-to-microsoft-entra-id)
 - [License renames](#license-renames)
-- [Azure AD feature renames](#azure-ad-feature-renames)
+- [Azure AD feature renames](#azure-ad-feature-renames-to-microsoft-entra-id)
 - [What names aren't changing](#what-names-arent-changing)
+
+## What is Identity and Access Management (IAM)
+
+In the context of cloud computing, IAM assumes an even more critical role.
+
+As resources are accessed remotely, often beyond the traditional network boundaries, IAM ensures that only authenticated and authorized users can access these resources.
+
+This enhances security and facilitates regulatory compliance and efficient resource management.
 
 ## What is Microsoft Entra
 
-Microsoft Entra is a cloud-based identity and access management service that helps employees sign in and access resources in:
+Microsoft Entra ID is Microsoft's cloud-based identity and access management service. It helps organizations securely manage and provide access to their apps, data, and even hardware resources. Here's a brief overview:
 
-- External resources, such as Microsoft 365, the Azure portal, and thousands of other SaaS applications.
-- Internal resources, such as apps on your corporate network and intranet, along with any cloud apps developed by your own organization.
-
-Microsoft Entra provides a robust set of capabilities to empower enterprises with more demanding needs on identity and access management. It provides an advanced set of features that help empower organizations with more demanding identity and access management needs.
-
-The expanded product family includes:
-
-| Identity and access management | New identity categories | Network access |
-| --- | --- | --- |
-| Microsoft Entra ID (currently known as Azure AD) | Microsoft Entra Verified ID | Microsoft Entra Internet Access |
-| Microsoft Entra ID Governance | Microsoft Entra Permissions Management | Microsoft Entra Private Access |
-| Microsoft Entra External ID | Microsoft Entra Workload ID | |
-
-Some features of Microsoft Entra ID (formally known as Azure AD) commonly used by developers and IT professionals include:
-
-- **Single Sign-On (SSO)**: Azure AD enables users to access multiple applications using a single set of login credentials, streamlining the authentication process and improving productivity.
-- **Multi-Factor Authentication (MFA)**: By requiring an additional authentication factor alongside traditional username and password credentials, MFA adds an extra layer of security to protect sensitive patient data from unauthorized access. Examples of how MFA can be used include:
-  - requiring users to enter a one-time passcode sent to their mobile device
-    - SMS text message
-    - phone call
-    - mobile app notification
-  - use a biometric identifier such as a fingerprint or facial scan
-- **Role-Based Access Control (RBAC)**: Administrators can define and enforce role-based access policies, ensuring that users have access only to the resources they need to perform their duties. For example, a nurse would have access to patient records but not financial data, whereas a billing specialist would have access to billing information but not medical records.
-- **Conditional Access**: Microsoft Entra enables administrators to create policies that grant or block access based on various conditions, such as the user's location, device, or risk level. This can help prevent unauthorized access to sensitive information from untrusted devices or locations.
-- **Identity Protection**: Azure AD continuously monitors user behavior and login patterns to detect suspicious activities, such as repeated failed login attempts or logins from unfamiliar locations, which may indicate a potential security threat. In such cases, Azure AD can automatically enforce additional security measures or alert the security team for further investigation.
-- **Azure Privileged Identity Management (Azure PIM)**: a service that provides granular access control and management of privileged accounts in Microsoft Entra ID and other Azure services. It helps organizations reduce the risk of unauthorized access and security breaches by enforcing the principle of least privilege and implementing just-in-time (JIT) access for users with elevated permissions. Azure PIM can be employed to enhance security and maintain compliance by ensuring that privileged access is granted only when necessary and for a limited time.
-  - **Just-In-Time Access**: Azure PIM enables organizations to grant temporary, time-limited access to privileged roles, such as administrators or data owners, when required. This reduces the risk of unauthorized access or misuse of sensitive data by limiting the exposure of privileged accounts.
-  - **Role-Based Access Control (RBAC)**: Azure PIM allows organizations to define and enforce granular access controls based on users' roles and responsibilities. This ensures that users have access only to the resources they need to perform their duties, preventing unauthorized access to sensitive patient data and critical systems.
-  - **Access Requests and Approvals**: Azure PIM provides a streamlined process for users to request privileged access, with customizable approval workflows that involve designated approvers, such as IT security staff or department heads. This helps organizations maintain oversight and control over who can access sensitive information and systems.
-  - **Monitoring and Auditing**: Azure PIM offers comprehensive monitoring and reporting capabilities, enabling organizations to track privileged access requests, approvals, and actions of privileged users. This audit trail can help organizations detect and investigate suspicious activities, maintain compliance with regulations, and demonstrate accountability.
-  - **Security Alerts and Notifications**: Azure PIM can generate security alerts and notifications based on pre-defined policies or unusual activities, such as multiple failed login attempts or privilege escalation. This helps organizations proactively identify and respond to potential security incidents.
+- **Identity Management**: Microsoft Entra ID stores information about users (like usernames and passwords) and determines what those users can access and do.
+- **Single Sign-On (SSO)**: Allows users to sign in once and then access multiple apps without needing to log in again for each one.
+- **Multi-Factor Authentication (MFA)**: Microsoft Entra ID can add an extra layer of security by requiring two or more methods of verification before granting access. For example, besides a password, a user might also need to enter a code sent to their phone.
+- **Conditional Access**: It can determine access based on various conditions, such as the user's location, device, or risk level.
+- **Integration with Various Apps**: Microsoft Entra ID works not only with Microsoft applications but also with a wide range of external apps, allowing for centralized identity management regardless of the application platform.
+Device Management: Microsoft Entra ID can manage devices, ensuring they meet specific security standards before accessing certain resources.
 
 ## Azure AD to Microsoft Entra ID
 
@@ -74,13 +57,48 @@ Azure AD product icons are replaced with the Microsoft Entra ID product icon.
 | --- | --- |
 | ![Azure AD product icon Alternative](./azure-ad-icon-1.png) ![Azure AD product icon](./azure-ad-icon-2.png) | ![Microsoft Entra ID product icon](./microsoft-entra-id-icon.png) |
 
-## License renames
+## Overview of Microsoft Entra ID licenses
+
+### License renames
 
 The new names of standalone offers will be **Microsoft Entra ID Free**, **Microsoft Entra ID P1**, and **Microsoft Entra ID P2**.
 
 ![Azure AD license rename](./azure-ad-new-name.png)
 
-## Azure AD feature renames
+### Features and benefits of each license type
+
+Microsoft Entra ID provides multiple licensing tiers, each designed to offer a specific set of features and capabilities:
+
+#### Microsoft Entra ID Free
+
+This is the default version that comes with any Microsoft Online business service, such as Microsoft 365 or Microsoft Azure. It provides basic features suitable for initial cloud engagements.
+
+- **User and Group Management**: Manage your cloud users and groups.
+- **On-Premises Directory Synchronization**: Sync with on-premises directories.
+- **Basic Reports**: Access to standard reports.
+- **Self-Service Password Change**: Allows cloud users to change their passwords.
+- **Single Sign-On (SSO)**: SSO across Azure, Microsoft 365, and many popular SaaS apps.
+
+#### Microsoft Entra ID Premium P1
+
+A more advanced version that offers richer enterprise-level identity management capabilities, including hybrid users’ access to both on-premises and cloud resources.
+
+- All features of Microsoft Entra ID Free: Inherits all the capabilities of the Free version.
+- **Hybrid Users Access**: Access to both on-premises and cloud resources.
+- **Dynamic Groups**: Advanced administration with dynamic group membership.
+- **Self-Service Group Management**: Users can create and manage groups.
+- **Microsoft Identity Manager**: Synchronize identities and manage user settings.
+- **Cloud Write-Back Capabilities**: Enables self-service password reset for on-premises users.
+
+#### Microsoft Entra ID Premium P2
+
+The most advanced licensing tier, offering all the capabilities of Microsoft Entra ID, including advanced identity protection and identity governance features.
+
+- All features of Microsoft Entra ID Premium P1: Inherits all the capabilities of the P1 version.
+- **Microsoft Entra Identity Protection**: Provides risk-based Conditional Access to apps and data.
+- **Privileged Identity Management (PIM)**: Discover, restrict, and monitor administrators and their access to resources. Provides just-in-time privileged access.
+
+## Azure AD feature renames to Microsoft Entra ID
 
 ![Microsoft Entra Products](./me-products.drawio.png)
 
