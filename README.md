@@ -8,6 +8,13 @@ The renaming will take effect on October 1, 2023, and all existing deployments, 
 
 [Slides](./Microsoft%20Entra%202023-09-18.pdf)
 
+About me:
+
+ - **Name**: Glen Souza
+  - **Title**: Principal Cloud Solution Architect
+  - **LinkedIn**: <https://www.linkedin.com/in/glensouza>
+  - **GitHub**: @glensouza <https://github.com/glensouza>
+
 ## Agenda
 
 - [What is Microsoft Entra](#what-is-microsoft-entra)
