@@ -12,6 +12,7 @@ About me:
 
  - **Name**: Glen Souza
   - **Title**: Principal Cloud Solution Architect
+  - **Company**: Microsoft
   - **LinkedIn**: <https://www.linkedin.com/in/glensouza>
   - **GitHub**: @glensouza <https://github.com/glensouza>
 
@@ -177,6 +178,14 @@ The Microsoft identity platform encompasses all our identity and access develope
 DirSync and Azure AD Sync aren't supported and no longer work. If you're still using DirSync or Azure AD Sync, you must upgrade to [Microsoft Entra Connect](https://learn.microsoft.com/en-us/azure/active-directory/hybrid/connect/how-to-dirsync-upgrade-get-started) to resume your sync process.
 
 ## Resources
+
+If you're interested in learning more, here are some links that will help you learn more about the topics covered here:
+
+- [What is Microsoft Entra](#what-is-microsoft-entra)
+- [Azure AD to Microsoft Entra ID](#azure-ad-to-microsoft-entra-id)
+- [License renames](#license-renames)
+- [Azure AD feature renames](#azure-ad-feature-renames-to-microsoft-entra-id)
+- [What names aren't changing](#what-names-arent-changing)
 
 ### Learn more about Microsoft Entra
 
