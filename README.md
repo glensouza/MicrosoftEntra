@@ -190,7 +190,8 @@ If you're interested in learning more, here are some links that will help you le
   - [Microsoft Entra ID icon](https://learn.microsoft.com/en-us/azure/active-directory/architecture/architecture-icons)
 - License renames
   - [Pricing and free trials](https://aka.ms/PricingEntra)
-- [Azure AD feature renames](#azure-ad-feature-renames-to-microsoft-entra-id)
+- Azure AD feature renames
   - [Azure AD is being renamed to Microsoft Entra ID](https://devblogs.microsoft.com/identity/aad-rebrand/)
   - [New name for Azure Active Directory - Microsoft Entra](https://learn.microsoft.com/en-us/azure/active-directory/fundamentals/new-name)
-- [What names aren't changing](#what-names-arent-changing)
+- What names aren't changing
+  - [What names aren't changing?](https://learn.microsoft.com/en-us/azure/active-directory/fundamentals/new-name#what-names-arent-changing)
