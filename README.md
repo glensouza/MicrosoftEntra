@@ -181,22 +181,16 @@ DirSync and Azure AD Sync aren't supported and no longer work. If you're still u
 
 If you're interested in learning more, here are some links that will help you learn more about the topics covered here:
 
-- [What is Microsoft Entra](#what-is-microsoft-entra)
-- [Azure AD to Microsoft Entra ID](#azure-ad-to-microsoft-entra-id)
-- [License renames](#license-renames)
+- What is Microsoft Entra
+  - [What is Azure Active Directory?](https://learn.microsoft.com/en-us/azure/active-directory/fundamentals/whatis)
+- Azure AD renamed to Microsoft Entra ID
+  - [Official announcement blog](https://www.microsoft.com/en-us/security/blog/2023/07/11/microsoft-entra-expands-into-security-service-edge-and-azure-ad-becomes-microsoft-entra-id)
+  - [Microsoft is Renaming Azure AD to Entra ID - Thurrott.com](https://www.thurrott.com/cloud/285529/microsoft-is-renaming-azure-ad-to-entra-id)
+  - [Microsoft whips up unrest after revealing Azure AD name change](https://www.theregister.com/2023/07/12/azure_ad_name_change)
+  - [Microsoft Entra ID icon](https://learn.microsoft.com/en-us/azure/active-directory/architecture/architecture-icons)
+- License renames
+  - [Pricing and free trials](https://aka.ms/PricingEntra)
 - [Azure AD feature renames](#azure-ad-feature-renames-to-microsoft-entra-id)
+  - [Azure AD is being renamed to Microsoft Entra ID](https://devblogs.microsoft.com/identity/aad-rebrand/)
+  - [New name for Azure Active Directory - Microsoft Entra](https://learn.microsoft.com/en-us/azure/active-directory/fundamentals/new-name)
 - [What names aren't changing](#what-names-arent-changing)
-
-### Learn more about Microsoft Entra
-
-- [What is Azure Active Directory?](https://learn.microsoft.com/en-us/azure/active-directory/fundamentals/whatis)
-- [Pricing and free trials](https://aka.ms/PricingEntra)
-- [Microsoft Entra ID icon](https://learn.microsoft.com/en-us/azure/active-directory/architecture/architecture-icons)
-
-### Azure AD renamed to Microsoft Entra
-
-- [Official announcement blog](https://www.microsoft.com/en-us/security/blog/2023/07/11/microsoft-entra-expands-into-security-service-edge-and-azure-ad-becomes-microsoft-entra-id)
-- [Azure AD is being renamed to Microsoft Entra ID](https://devblogs.microsoft.com/identity/aad-rebrand/)
-- [New name for Azure Active Directory - Microsoft Entra](https://learn.microsoft.com/en-us/azure/active-directory/fundamentals/new-name)
-- [Microsoft is Renaming Azure AD to Entra ID - Thurrott.com](https://www.thurrott.com/cloud/285529/microsoft-is-renaming-azure-ad-to-entra-id)
-- [Microsoft whips up unrest after revealing Azure AD name change](https://www.theregister.com/2023/07/12/azure_ad_name_change)
